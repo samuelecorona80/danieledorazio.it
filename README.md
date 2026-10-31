@@ -25,3 +25,9 @@ Il dominio non è stato ancora collegato. Prima del collegamento verificare il d
 - Registrare il dominio in Google Search Console e inviare la sitemap.
 
 La struttura è predisposta per la ricerca locale; l’indicizzazione e il posizionamento non sono garantiti. I dati di prova sono dichiarati nelle pagine. Non sono stati inventati recensioni, qualifiche aggiuntive, indirizzi, recapiti o risultati professionali.
+
+## Immagine dimostrativa
+
+`casa-sostenibile.jpg` è una fotografia generata con ImageGen (strumento integrato): casa italiana contemporanea sostenibile, materiali naturali, fotovoltaico, ulivi e luce pomeridiana; nessuna persona o progetto reale rappresentato.
+
+Contatto provvisorio autorizzato: samuelecorona@gmail.com.
