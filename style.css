@@ -101,3 +101,11 @@ nav a:hover,.textlink:hover{color:#a57d40}
 .needs-foot{display:flex;gap:15px;justify-content:space-between;align-items:center;margin-top:18px;padding:16px 2px;font-size:13px}
 .needs-foot a{font-weight:700;text-underline-offset:4px}
 @media(max-width:760px){.needs{padding-top:43px;padding-bottom:20px}.needs .section-head{margin-bottom:19px}.needs-grid{grid-template-columns:1fr;gap:9px}.need-link{min-height:68px;padding:15px 17px;gap:13px}.need-link strong{font-size:14px}.need-arrow{font-size:20px}.needs-foot{display:block;padding:14px 0}.needs-foot span{display:block;margin-bottom:7px}}
+
+/* WhatsApp contact: non-clickable to external service until a verified number exists */
+.wa-ready{display:flex;align-items:center;gap:13px;padding:14px 16px;margin:15px 0;background:#e9f7ed;border:1px solid #b7dec2;border-radius:9px;color:#14542c}
+.wa-ready strong,.wa-ready small{display:block}.wa-ready strong{font-size:16px}.wa-ready small{font-size:12px;line-height:1.45;color:#366e49}
+.wa-dot{font-size:22px;color:#1b9e50}.wa-top{color:#d6f6df!important;font-weight:700}.wa-top small{font-size:10px;font-weight:400}
+.wa-floating{position:fixed;right:18px;bottom:20px;z-index:50;background:#168744;color:white;text-decoration:none;border-radius:40px;padding:12px 17px;display:flex;gap:7px;align-items:center;box-shadow:0 6px 24px #142a3940;font-weight:700;font-size:14px}
+.wa-floating small{font-size:10px;font-weight:400;opacity:.9}.wa-floating span{font-size:22px;line-height:1}
+@media(max-width:760px){.wa-floating{right:12px;bottom:12px;padding:11px 14px;font-size:13px}.wa-top{font-size:12px!important}}
