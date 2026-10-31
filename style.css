@@ -97,3 +97,9 @@ body:has(.wa-floating){padding-bottom:80px}summary{display:list-item;min-height:
 
 /* The mobile contact placeholder must not obscure text or actions. */
 @media(max-width:760px){.wa-floating{position:static;width:max-content;max-width:calc(100% - 24px);margin:0 12px calc(24px + env(safe-area-inset-bottom,0px)) auto}body:has(.wa-floating){padding-bottom:0}}
+
+/* Essential homepage */
+.about-compact{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;padding-top:65px;padding-bottom:65px}
+.about-compact h2{margin-bottom:0}.about-compact p{max-width:510px}.about-location{font-size:12px;font-weight:700;letter-spacing:.5px;color:#587b92}
+.service-grid .service-card{min-height:210px}.service-grid .service-card h3{margin-bottom:12px}.service-grid .service-cta{margin-top:auto}
+@media(max-width:760px){.about-compact{grid-template-columns:1fr;gap:15px;padding-top:40px;padding-bottom:40px}.about-compact h2{font-size:31px}.service-grid .service-card{min-height:0}}
