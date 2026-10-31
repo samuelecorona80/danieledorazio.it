@@ -1,0 +1,107 @@
+[
+  {
+    "case": "layout-after-320-certificazione-energetica.html.json",
+    "layout_score": 1,
+    "accessibility_score": 1,
+    "viewport": 320,
+    "scrollWidth": 320
+  },
+  {
+    "case": "layout-after-320-consulenza-ambientale.html.json",
+    "layout_score": 1,
+    "accessibility_score": 1,
+    "viewport": 320,
+    "scrollWidth": 320
+  },
+  {
+    "case": "layout-after-320-direzione-lavori-sicurezza.html.json",
+    "layout_score": 1,
+    "accessibility_score": 1,
+    "viewport": 320,
+    "scrollWidth": 320
+  },
+  {
+    "case": "layout-after-320-efficienza-energetica.html.json",
+    "layout_score": 1,
+    "accessibility_score": 1,
+    "viewport": 320,
+    "scrollWidth": 320
+  },
+  {
+    "case": "layout-after-320-fotovoltaico.html.json",
+    "layout_score": 1,
+    "accessibility_score": 1,
+    "viewport": 320,
+    "scrollWidth": 320
+  },
+  {
+    "case": "layout-after-320-incentivi-energetici.html.json",
+    "layout_score": 1,
+    "accessibility_score": 1,
+    "viewport": 320,
+    "scrollWidth": 320
+  },
+  {
+    "case": "layout-after-320-index.html.json",
+    "layout_score": 1,
+    "accessibility_score": 1,
+    "viewport": 320,
+    "scrollWidth": 320
+  },
+  {
+    "case": "layout-after-320-pratiche-edilizie.html.json",
+    "layout_score": 1,
+    "accessibility_score": 1,
+    "viewport": 320,
+    "scrollWidth": 320
+  },
+  {
+    "case": "layout-after-320-sicurezza-lavoro.html.json",
+    "layout_score": 1,
+    "accessibility_score": 1,
+    "viewport": 320,
+    "scrollWidth": 320
+  },
+  {
+    "case": "layout-after-375-index.html.json",
+    "layout_score": 1,
+    "accessibility_score": 1,
+    "viewport": 375,
+    "scrollWidth": 375
+  },
+  {
+    "case": "layout-after-390-index.html.json",
+    "layout_score": 1,
+    "accessibility_score": 1,
+    "viewport": 390,
+    "scrollWidth": 390
+  },
+  {
+    "case": "layout-after-430-index.html.json",
+    "layout_score": 1,
+    "accessibility_score": 1,
+    "viewport": 430,
+    "scrollWidth": 430
+  },
+  {
+    "case": "layout-after-768-index.html.json",
+    "layout_score": 1,
+    "accessibility_score": 1,
+    "viewport": 768,
+    "scrollWidth": 768
+  },
+  {
+    "case": "layout-final-service-320.json",
+    "layout_score": 1,
+    "accessibility_score": 1,
+    "viewport": 320,
+    "scrollWidth": 320
+  },
+  {
+    "case": "layout-final-320.json",
+    "layout_score": 1,
+    "accessibility_score": 1,
+    "viewport": 320,
+    "scrollWidth": 320
+  }
+]
