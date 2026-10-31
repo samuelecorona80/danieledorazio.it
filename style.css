@@ -62,3 +62,10 @@ nav a:hover,.textlink:hover{color:#a57d40}
 }
 .photo-credit{max-width:1200px;margin:auto;padding:0 5% 22px;font-size:10px;color:#677783}
 .photo-credit a{color:inherit}
+
+.contact-top{display:flex;align-items:center;justify-content:center;gap:17px;padding:10px 5%;background:#142a39;color:#fff;font-size:13px;letter-spacing:.1px}
+.contact-top>a{color:#fff;font-weight:700;text-underline-offset:3px}
+.contact-top>span:first-child{color:#d4ae70;font-size:11px;text-transform:uppercase;letter-spacing:1px}
+.contact-top .demo-phone{color:#f5f1e9;font-weight:600}
+.contact-top small{font-size:10px;font-weight:400;color:#e0c9a8}
+@media(max-width:760px){.contact-top{padding:10px 4%;gap:3px 10px;flex-wrap:wrap;font-size:12px}.contact-top>span:first-child,.contact-top .contact-separator{display:none}.contact-top>a{font-size:13px}.contact-top .demo-phone{font-size:12px}}
