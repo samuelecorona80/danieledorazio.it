@@ -20,7 +20,7 @@ Il dominio non è stato ancora collegato. Prima del collegamento verificare il d
 
 - Confermare con Daniele i servizi e tutti i testi dimostrativi.
 - Inserire recapiti, iscrizione all’albo e dati fiscali verificati.
-- Inserire canonical assoluti e sitemap.xml con gli URL del dominio finale, e la direttiva Sitemap nel robots.txt.
+- Aggiornare canonical assoluti, og:url, sitemap.xml e la direttiva Sitemap nel robots.txt dal dominio GitHub Pages al dominio finale.
 - Aggiungere dati strutturati professionali solo con informazioni reali confermate.
 - Registrare il dominio in Google Search Console e inviare la sitemap.
 
