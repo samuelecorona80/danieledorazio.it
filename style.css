@@ -181,3 +181,16 @@ body:has(.wa-floating){padding-bottom:80px}summary{display:list-item;min-height:
 .home-clean .contact-email{width:fit-content;text-decoration-thickness:1px;text-underline-offset:7px}
 .home-clean .hero-technical-art{background:#f4f7f5;border-color:#dbe5dd;border-radius:12px}
 @media(max-width:760px){.home-clean .hero.hero-technical{grid-template-columns:1fr;gap:26px}.home-clean .hero.hero-technical h1{font-size:clamp(33px,8.2vw,45px);letter-spacing:-1.2px}.home-clean .hero.hero-technical .lead{max-width:none}}
+
+/* Mixed light and dark studio palette: petrol introduction, light services. */
+.home-clean .hero-band{background:var(--ink);color:#fff}
+.home-clean .hero-band .hero{padding-top:64px;padding-bottom:64px}
+.home-clean .hero-band .hero h1{color:#fff}
+.home-clean .hero-band .hero .eyebrow{color:#a8d5b0}
+.home-clean .hero-band .hero .lead{color:#d1dde3}
+.home-clean .hero-band .button.dark{background:#a8d5b0;color:var(--ink)}
+.home-clean .hero-band .textlink{color:#fff;text-decoration-color:#a8d5b0}
+.home-clean .hero-band .textlink:hover{color:#a8d5b0}
+.home-clean .hero-band :focus-visible{outline-color:#a8d5b0}
+.home-clean .hero-band .hero-technical-art{border-color:#607a87;box-shadow:none}
+@media(max-width:760px){.home-clean .hero-band .hero{padding-top:36px;padding-bottom:40px}}
