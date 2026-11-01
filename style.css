@@ -167,3 +167,17 @@ body:has(.wa-floating){padding-bottom:80px}summary{display:list-item;min-height:
 .hero-technical-art{background:#f5f9fb;border:1px solid #e0eaf0;border-radius:18px;overflow:hidden}
 .hero-technical-art img{display:block;width:100%;height:auto}
 @media(max-width:760px){.brand-with-mark{gap:8px}.brand-with-mark .brand-mark{width:39px;height:39px}.home-clean .hero.hero-technical{grid-template-columns:1fr;padding-top:28px;padding-bottom:40px;gap:24px}.hero-technical-art{border-radius:12px}}
+
+/* Refined studio palette and balanced technical introduction. */
+.home-clean{--accent:#326b45;--accent-light:#a8d5b0}
+.home-clean .hero.hero-technical{max-width:1320px;grid-template-columns:minmax(0,1.2fr) minmax(0,.85fr);gap:clamp(28px,5vw,72px)}
+.home-clean .hero.hero-technical h1{font-size:clamp(36px,3.8vw,54px);line-height:1.12;text-wrap:balance}
+.home-clean .hero.hero-technical .lead{max-width:560px}
+.home-clean .section-head h2 em,.home-clean .need-arrow,.home-clean .need-index,.home-clean .process-compact li:before{color:var(--accent)}
+.home-clean nav a:hover,.home-clean .textlink:hover{color:var(--accent)}
+.home-clean .need-link:hover,.home-clean .need-link:focus-visible{border-color:var(--accent);background:#f4f8f3;box-shadow:0 6px 18px #142a390a}
+.home-clean .contact h2 .contact-highlight{color:var(--accent-light)!important}
+.home-clean .contact-panel>.button{background:var(--accent-light);color:var(--ink);min-height:48px}
+.home-clean .contact-email{width:fit-content;text-decoration-thickness:1px;text-underline-offset:7px}
+.home-clean .hero-technical-art{background:#f4f7f5;border-color:#dbe5dd;border-radius:12px}
+@media(max-width:760px){.home-clean .hero.hero-technical{grid-template-columns:1fr;gap:26px}.home-clean .hero.hero-technical h1{font-size:clamp(33px,8.2vw,45px);letter-spacing:-1.2px}.home-clean .hero.hero-technical .lead{max-width:none}}
