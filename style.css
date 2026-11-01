@@ -126,3 +126,9 @@ body:has(.wa-floating){padding-bottom:80px}summary{display:list-item;min-height:
 .about-portrait img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 26%}
 @media(max-width:900px){.about-with-photo{grid-template-columns:minmax(140px,.65fr) 1fr;gap:22px}.about-with-photo>div:last-child{grid-column:2}.about-portrait{grid-row:1/span 2}}
 @media(max-width:600px){.about-with-photo{grid-template-columns:112px minmax(0,1fr);gap:15px;align-items:start}.about-portrait{grid-row:1;aspect-ratio:3/4;border-radius:9px}.about-with-photo>div:nth-child(2){align-self:center}.about-with-photo>div:last-child{grid-column:1/-1}.about-with-photo h2{font-size:clamp(23px,6vw,31px)}}
+
+/* Hero portrait instead of landscape */
+.person-hero{background:#dfe7e9;border-radius:18px;min-height:530px}
+.person-hero>img{width:100%;height:530px;object-fit:cover;object-position:center 30%}
+.person-hero:after{display:none}
+@media(max-width:760px){.person-hero{min-height:0;max-height:520px;border-radius:14px}.person-hero>img{height:auto;max-height:520px;aspect-ratio:4/4.6;object-fit:cover;object-position:center 25%}}
