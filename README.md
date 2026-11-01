@@ -11,7 +11,7 @@ python3 scripts/check_site.py
 
 Il controllo usa solo la libreria standard Python e verifica collegamenti, frammenti, sitemap, canonical, metadati, JSON-LD, immagini e assenza di collegamenti WhatsApp attivi. Le verifiche Lighthouse e HTML dell’audit sono documentate in [docs/audit/2026-10-31.md](docs/audit/2026-10-31.md).
 
-Il sito non richiede installazione di pacchetti né build. Gli strumenti dell’audit sono stati installati fuori dal repository e non sono dipendenze di produzione.
+Il sito non richiede installazione di pacchetti né compilazione. Il workflow `.github/workflows/pages.yml` valida i file e pubblica soltanto gli asset statici, serializzando le pubblicazioni con `concurrency: pages`. In GitHub Pages la sorgente è GitHub Actions. Gli strumenti dell’audit sono stati installati fuori dal repository e non sono dipendenze di produzione.
 
 ## Pagine e indicizzazione
 
