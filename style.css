@@ -132,3 +132,9 @@ body:has(.wa-floating){padding-bottom:80px}summary{display:list-item;min-height:
 .person-hero>img{width:100%;height:530px;object-fit:cover;object-position:center 30%}
 .person-hero:after{display:none}
 @media(max-width:760px){.person-hero{min-height:0;max-height:520px;border-radius:14px}.person-hero>img{height:auto;max-height:520px;aspect-ratio:4/4.6;object-fit:cover;object-position:center 25%}}
+
+/* Keep full portrait visible on mobile, with no duplicate in About */
+@media(max-width:760px){
+.person-hero{max-height:none;min-height:0;overflow:hidden}
+.person-hero>img{display:block;width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;object-position:center}
+}
