@@ -158,3 +158,12 @@ body:has(.wa-floating){padding-bottom:80px}summary{display:list-item;min-height:
 .home-clean .hero.hero-text-only{display:block;max-width:1000px;padding-top:clamp(44px,7vw,95px);padding-bottom:clamp(48px,7vw,95px)}
 .home-clean .hero.hero-text-only>div{max-width:820px}
 .home-clean .hero.hero-text-only h1{max-width:780px}
+
+/* Engineering identity: original monogram and technical drawing */
+.brand-with-mark{display:inline-flex;align-items:center;gap:12px;letter-spacing:-.5px}
+.brand-with-mark .brand-mark{display:block;width:52px;height:52px;flex:none}
+.brand-with-mark small{letter-spacing:1.6px}
+.home-clean .hero.hero-technical{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);max-width:1200px;gap:clamp(24px,4vw,55px);align-items:center;padding-top:48px;padding-bottom:56px}
+.hero-technical-art{background:#f5f9fb;border:1px solid #e0eaf0;border-radius:18px;overflow:hidden}
+.hero-technical-art img{display:block;width:100%;height:auto}
+@media(max-width:760px){.brand-with-mark{gap:8px}.brand-with-mark .brand-mark{width:39px;height:39px}.home-clean .hero.hero-technical{grid-template-columns:1fr;padding-top:28px;padding-bottom:40px;gap:24px}.hero-technical-art{border-radius:12px}}
